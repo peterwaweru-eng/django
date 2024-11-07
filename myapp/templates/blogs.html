@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="{% static 'css/csss.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blogs</title>
+</head>
+<body>
+<a href="{% url 'my-home' %}">HOME</a>
+<a href="{% url 'my-about' %}">ABOUT</a>
+<a href="{% url 'blogs' %}">BLOGS</a>
+<a href="{% url 'services' %}">SERVICES</a>
+<a href="{% url 'contact' %}">CONTACT</a>
+<h2>this are the recent news</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum eos hic laboriosam nemo placeat reprehenderit sint voluptatibus. Amet culpa eligendi in iure minima odio, perspiciatis qui quia quod repellat?</span><span>Ab ad culpa distinctio dolorem dolores, illum iste laborum provident ratione repellendus reprehenderit sunt ullam. Ad, amet deserunt dolores doloribus ducimus expedita
+    hic quo recusandae reiciendis repellat repellendus sed veritatis.</span></p>
+<img src="{% static 'images/Img2...jpeg' %}" alt="">
+</body>
+</html>

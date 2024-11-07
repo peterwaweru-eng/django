@@ -1,0 +1,16 @@
+h2{
+    color: blue;
+    padding: 0px;
+    margin: 1px;
+
+}
+body{
+    background-color: burlywood;
+}
+a{
+    padding-right: 5px;
+    border-radius: 2%;
+    color: maroon;
+    font-family: "Eras Bold ITC";
+
+}

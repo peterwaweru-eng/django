@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="{% static 'css/csss.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>services</title>
+</head>
+<body>
+<a href="{% url 'my-home' %}">HOME</a>
+<a href="{% url 'my-about' %}">ABOUT</a>
+<a href="{% url 'blogs' %}">BLOGS</a>
+<a href="{% url 'services' %}">SERVICES</a>
+<a href="{% url 'contact' %}">CONTACT</a>
+<h1>this are services we offer</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur culpa cumque distinctio dolorum explicabo harum id in minus nihil perferendis quam quibusdam quisquam repellendus, rerum similique tenetur velit voluptates.</span><span>A asperiores, beatae debitis delectus ducimus ea eligendi illo nesciunt odio quasi quibusdam ratione recusandae soluta tenetur ut veniam voluptas? Animi culpa, eum
+    excepturi impedit incidunt temporibus voluptatem voluptates voluptatibus.</span></p>
+<img src="{% static 'images/IMG8.jpeg' %}" alt="">
+</body>
+</html>
